@@ -7,11 +7,10 @@ import gsap from "gsap";
 const Counter = () => {
   useGSAP(() => {
     const tl = gsap.timeline({
-      repeat: -1, // Loop infinite
-      yoyo: true, // Membuat animasi bolak-balik
+      repeat: -1,
+      yoyo: true,
     });
 
-    // Animasi masuk awal
     tl.fromTo(
       ".counter-item",
       {
@@ -27,17 +26,16 @@ const Counter = () => {
       }
     );
 
-    // Animasi mengambang
     tl.to(
       ".counter-item",
       {
-        y: 10, // Jarak naik turun
+        y: 10,
         duration: 2,
         ease: "power1.inOut",
-        stagger: 0.2, // Sedikit delay antar item
+        stagger: 0.2,
       },
       "+=1"
-    ); // Delay setelah animasi masuk
+    );
   });
 
   return (
