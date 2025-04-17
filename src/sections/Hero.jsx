@@ -57,11 +57,7 @@ const Hero = () => {
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Your Gateway to Exclusive Digital Art, Collectibles, and Metaverse
-<<<<<<< HEAD
               Assets. <br /> Built on a Secure, Decentralized Platform.
-=======
-              Assets.<br /> Built on a Secure, Decentralized Platform.
->>>>>>> 1f8d06e0c3e81da0140b4528e5338df2c8063ad4
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
