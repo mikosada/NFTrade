@@ -99,7 +99,7 @@ section {
   }
 
   .hero-d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-10 md:top-72 top-96 xl:-right-70 right-0;
+    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-10 md:top-72 top-96 xl:-right-60 right-0;
   }
 
   .navbar {
