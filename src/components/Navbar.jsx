@@ -4,7 +4,6 @@ const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [walletAddress, setWalletAddress] = useState("");
 
-  // Generate random fake wallet address
   const generateFakeWallet = () => {
     const chars = "0123456789abcdef";
     const address = Array.from(
